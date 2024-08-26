@@ -13,6 +13,10 @@
   src: url(./assets//fonts/cotorisbold.ttf);
 }
 
+* {
+  border: 1px solid greenyellow;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -26,4 +30,9 @@ html {
 
 ::-webkit-scrollbar {
   width: 0px;
+}
+
+::selection {
+  color: #5B0017;
+  background-color: #CC9D2F;
 }

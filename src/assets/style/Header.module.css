@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 40px 0 60px;
+}
+
+.list {
+    display: flex;
+    gap: 85px;
+    list-style: none;
+
+}
+
+.navLink {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26.25px;
+}
+
+.navButton {
+    display: flex;
+    align-items: center;
+}
+
+.buttonText {
+    font-family: 'Cotoris', sans-serif;
+    color: #5B0017;
+    background-color: #CC9D2F;
+    width: 171px;
+    height: 63px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
