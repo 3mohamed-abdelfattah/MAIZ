@@ -8,6 +8,8 @@ function App() {
 
   return (
     <Router>
+      <div className="background-left"></div>
+      <div className="background-right"></div>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
