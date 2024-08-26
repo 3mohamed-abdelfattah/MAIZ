@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/224e8ebb-db2a-4733-b3e9-1f72066f764b)
 
 # MAIZ
 
