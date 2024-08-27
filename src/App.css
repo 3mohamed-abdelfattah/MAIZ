@@ -13,9 +13,9 @@
   src: url(./assets//fonts/cotorisbold.ttf);
 }
 
-* {
+/* * {
   border: 1px solid rgba(255, 0, 255, 0.514);
-}
+} */
 
 body {
   margin: 0;
@@ -55,9 +55,9 @@ html {
   position: absolute;
   top: 900px;
   bottom: 0;
-  width: 620px;
+  width: 630px;
   height: 900px;
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
   right: 0;
   background-image: url('./assets//img/BackgroundLogoSec.png');
