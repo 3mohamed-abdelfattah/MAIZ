@@ -42,7 +42,7 @@ html {
   top: 0;
   bottom: 0;
   width: 710px;
-  height: 750px;
+  height: 900px;
   background-size: auto;
   background-repeat: no-repeat;
   left: 0;
@@ -53,10 +53,10 @@ html {
 
 .background-right {
   position: absolute;
-  top: 800px;
+  top: 900px;
   bottom: 0;
   width: 620px;
-  height: 700px;
+  height: 900px;
   background-size: auto;
   background-repeat: no-repeat;
   right: 0;

@@ -1,0 +1,71 @@
+.imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+}
+
+.Image {
+    max-width: 763px;
+    max-height: 534px;
+    margin: 20px 80px;
+}
+
+.headText {
+    position: absolute;
+    top: 50%;
+    left: 2.5%;
+    transform: translateY(-50%);
+    color: #FFFFFF;
+    padding: 20px;
+
+}
+
+.headBackground {
+    background-color: rgba(91, 0, 23, 0.7);
+    font-size: 120px;
+    line-height: 130px;
+    text-align: left;
+}
+
+.headText span {
+    font-family: "Inter", sans-serif;
+    display: block;
+    font-size: 23px;
+    line-height: 27.84px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.headButton {
+    margin-top: 50px;
+    font-family: 'Cotoris', sans-serif;
+    color: #CC9D2F;
+    background-color: #5B0017;
+    width: 171px;
+    height: 63px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid #CC9D2F;
+    transition: background-color 0.4s ease-in, border-color 0.4s ease-in;
+}
+
+.headButton:hover {
+    color: #5B0017;
+    background-color: #CC9D2F;
+    transition: background-color 0.4s ease-out, border-color 0.4s ease-out;
+}
+
+.floweIcon {
+    position: absolute;
+    top: 190px;
+    right: 55px;
+    z-index: 999;
+}
+
+.circleIcon {
+    margin: 20px 60px;
+}

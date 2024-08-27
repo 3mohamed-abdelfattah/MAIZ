@@ -7,7 +7,9 @@ import { Link } from 'react-router-dom'
 export default function Header() {
     return (
         <nav className={style.container}>
-            <img className={style.logoImg} src={Logo} alt='Logo' />
+            <Link to="/MAIZ">
+                <img className={style.logoImg} src={Logo} alt='Logo' />
+            </Link>
             <ul className={style.list}>
                 <li><Link to="/about" className={style.navLink}>About</Link></li>
                 <li><Link to="/menu" className={style.navLink}>Menu</Link></li>

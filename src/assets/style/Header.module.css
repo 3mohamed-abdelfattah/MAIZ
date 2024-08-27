@@ -10,7 +10,6 @@
     display: flex;
     gap: 85px;
     list-style: none;
-
 }
 
 .navLink {
@@ -19,7 +18,14 @@
     font-weight: 400;
     font-size: 21px;
     line-height: 26.25px;
+    transition: color 0.4s ease-in;
 }
+
+.navLink:hover {
+    color: #CC9D2F;
+    transition: color 0.4s ease-out;
+}
+
 
 .navButton {
     display: flex;
@@ -37,5 +43,13 @@
     line-height: 30px;
     text-align: center;
     cursor: pointer;
-    border: none;
+    border: 1px solid transparent;
+    transition: background-color 0.4s ease-in, border-color 0.4s ease-in;
+}
+
+.buttonText:hover {
+    color: #CC9D2F;
+    background-color: #5b0017;
+    border-color: #CC9D2F;
+    transition: background-color 0.4s ease-out, border-color 0.4s ease-out;
 }
