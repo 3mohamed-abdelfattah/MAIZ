@@ -47,7 +47,7 @@ html {
   background-repeat: no-repeat;
   left: 0;
   margin-left: 40px;
-  background-image: url('./assets//img/BackgroundLogo.png');
+  background-image: url('./assets/img/BackgroundLogo.png');
   z-index: -999;
 }
 
@@ -60,6 +60,6 @@ html {
   background-size: contain;
   background-repeat: no-repeat;
   right: 0;
-  background-image: url('./assets//img/BackgroundLogoSec.png');
+  background-image: url('./assets/img/BackgroundLogoSec.png');
   z-index: -999;
 }

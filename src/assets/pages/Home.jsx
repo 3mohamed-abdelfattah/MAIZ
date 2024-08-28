@@ -82,6 +82,10 @@ export default function Home() {
                 </div>
             </div>
             {/* Fourth Section */}
-        </Fragment >
+            <div className={style.fourthSection}>
+                <div className={style.background_top}></div>
+                <div className={style.background_bottom}></div>
+            </div>
+        </Fragment>
     )
 }

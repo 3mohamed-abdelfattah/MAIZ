@@ -184,3 +184,36 @@
 }
 
 /* Fourth Section */
+.fourthSection {
+    min-height: 871.17px;
+    margin-top: 100px;
+    background-blend-mode: overlay;
+    background-size: cover;
+    position: relative;
+    background-image: url(../img/BottomImage.png),
+        linear-gradient(180deg, rgba(91, 0, 23, 0), rgba(91, 0, 23, 1));
+    ;
+}
+
+.background_top {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1049.83px;
+    height: 69.38px;
+    background-repeat: no-repeat;
+    left: 0;
+    background-image: url('../img/Triangles.png');
+    mix-blend-mode: overlay;
+}
+
+.background_bottom {
+    position: absolute;
+    bottom: 0;
+    width: 1046.83px;
+    height: 69.38px;
+    background-repeat: no-repeat;
+    right: 0;
+    background-image: url('../img/Triangles.png');
+    mix-blend-mode: overlay;
+}
