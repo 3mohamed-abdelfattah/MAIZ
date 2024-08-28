@@ -10,17 +10,17 @@ import Linkedin from '../assets/img/linkedin.png'
 export default function Footer() {
     return (
         <div className={style.container}>
-            <div className={style.logo}>
+            <div className={style.logo} data-aos="zoom-in">
                 <img src={FooterLogo} alt='Footer Logo' />
             </div>
             <div className={style.subContainer}>
                 <ul className={style.list}>
-                    <li><Link to="/MAIZ/" className={style.navLink}>Home</Link></li>
-                    <li><Link to="/about" className={style.navLink}>About</Link></li>
-                    <li><Link to="/menu" className={style.navLink}>Menu</Link></li>
-                    <li><Link to="/venue" className={style.navLink}>Venue</Link></li>
-                    <li><Link to="/events" className={style.navLink}>Events</Link></li>
-                    <li><Link to="/contact" className={style.navLink}>Contact us</Link></li>
+                    <li data-aos="fade-right"><Link to="/MAIZ/" className={style.navLink}>Home</Link></li>
+                    <li data-aos="fade-right"><Link to="/about" className={style.navLink}>About</Link></li>
+                    <li data-aos="fade-right"><Link to="/menu" className={style.navLink}>Menu</Link></li>
+                    <li data-aos="fade-right"><Link to="/venue" className={style.navLink}>Venue</Link></li>
+                    <li data-aos="fade-right"><Link to="/events" className={style.navLink}>Events</Link></li>
+                    <li data-aos="fade-right"><Link to="/contact" className={style.navLink}>Contact us</Link></li>
                 </ul>
             </div>
             <hr className={style.breakLine} />

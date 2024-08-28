@@ -18,34 +18,34 @@ export default function Home() {
     return (
         <Fragment>
             {/* First Section */}
-            <img src={Star} alt='Main' className={style.floweIcon} />
+            <img src={Star} alt='Main' className={style.floweIcon} data-aos="fade-left" />
             <div className={style.imageContainer}>
-                <img src={MainDish} alt='Main' className={style.Image} />
+                <img src={MainDish} alt='Main' className={style.Image} data-aos="zoom-in" />
                 <div className={style.headText}>
-                    <div className={style.headBackground}>
+                    <div className={style.headBackground} data-aos="fade-right">
                         Taste the authentic <br /> Saudi cuisine
                     </div>
                     <span>Among the best Saudi chefs in the world,<br /> serving you something beyond flavor.</span>
                     <button className={style.headButton}>Our Menu</button>
                 </div>
             </div>
-            <img src={Circle} alt='Main' className={style.circleIcon} />
+            <img src={Circle} alt='Main' className={style.circleIcon} data-aos="zoom-in" />
             {/* Second Section */}
             <div className={style.secSection}>
                 <span>
-                    <img src={ImgOne} alt='Main' className={style.imgOne} />
+                    <img src={ImgOne} alt='Main' className={style.imgOne} data-aos="fade-up" />
                     <img src={Circles} alt='Main' className={style.circlesShape} />
                 </span>
                 <div className={style.subContainer}>
-                    <span className={style.firstText}>A distinctive dining destination<br /> inspired by the culture.</span>
-                    <div className={style.secText}>Experience Al Balad old town of Jeddah vibes. </div>
-                    <button className={style.buttonVenue}>Our Venue</button>
+                    <span className={style.firstText} data-aos="fade-up">A distinctive dining destination<br /> inspired by the culture.</span>
+                    <div className={style.secText} data-aos="fade-up">Experience Al Balad old town of Jeddah vibes. </div>
+                    <button className={style.buttonVenue} data-aos="zoom-in">Our Venue</button>
                     <div className={style.imgesContainer}>
-                        <img src={ImgTwo} alt='Main' />
-                        <img src={ImgThree} alt='Main' />
-                        <img src={ImgFour} alt='Main' />
+                        <img src={ImgTwo} alt='Main' data-aos="fade-left" />
+                        <img src={ImgThree} alt='Main' data-aos="fade-left" />
+                        <img src={ImgFour} alt='Main' data-aos="fade-left" />
                     </div>
-                    <hr className={style.breakLine} />
+                    <hr className={style.breakLine} data-aos="fade-left" />
                 </div>
                 <div className={style.diamondShape}>
                     <img src={Diamond} alt='Main' />
@@ -55,14 +55,14 @@ export default function Home() {
             <div style={{ display: 'flex', justifyContent: 'center' }}>
                 <div className={style.thirdSection}>
                     <div className={style.textDiv}>
-                        <span className={style.platText}>
+                        <span className={style.platText} data-aos="fade-right">
                             <span style={{ fontSize: '59.93px', color: '#243054', position: 'absolute', fontFamily: 'Cotoris' }}>
                                 “
                             </span>
                             <br />
                             You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.
                         </span>
-                        <div className={style.personDetail}>
+                        <div className={style.personDetail} data-aos="fade-right">
                             <p style={{ fontFamily: 'Poppins, sans-serif', fontSize: '13.32px', fontWeight: '500', lineHeight: '19.98px', color: 'rgba(36, 48, 84, 0.87)' }}>
                                 Khalid Al Dawsry
                                 <br />
@@ -73,7 +73,7 @@ export default function Home() {
                             <img src={Person} style={{ width: '39.95px', height: '39.95px' }} alt='person' />
                         </div>
                         {/* Line Under Person Details */}
-                        <div style={{ display: 'flex', alignItems: 'center', height: '10px', backgroundColor: '#D4A02B' }}>
+                        <div data-aos="fade-right" style={{ display: 'flex', alignItems: 'center', height: '10px', backgroundColor: '#D4A02B' }}>
                             <div style={{ height: '2px', width: '90%', backgroundColor: '#B39319' }}></div>
                             <div style={{ height: '3px', width: '10%', backgroundColor: '#07224D' }}></div>
                         </div>
@@ -87,9 +87,9 @@ export default function Home() {
                 <div className={style.background_top}></div>
                 <div className={style.background_bottom}></div>
                 <div className={style.center}>
-                    <img src={BottomFlower} alt='Flower' />
-                    <div className={style.textBottom}>A unique menu that reflects the true essence of the Saudi cuisine</div>
-                    <button className={style.buttonMenue}>Our Menu</button>
+                    <img src={BottomFlower} alt='Flower' data-aos="zoom-in" />
+                    <div className={style.textBottom} data-aos="zoom-in">A unique menu that reflects the true essence of the Saudi cuisine</div>
+                    <button className={style.buttonMenue} data-aos="zoom-in">Our Menu</button>
                 </div>
             </div>
         </Fragment>
