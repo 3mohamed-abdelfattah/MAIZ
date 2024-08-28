@@ -11,6 +11,7 @@ import Diamond from '../img/DiamondShape.png'
 import Circles from '../img/Circles.png'
 import VideoImg from '../img/Video.png'
 import Person from '../img/PersonPhoto.png'
+import Flower from '../img/FlowerShape.svg'
 
 export default function Home() {
     return (
@@ -73,8 +74,9 @@ export default function Home() {
                         {/* Line Under Person Details */}
                         <div style={{ display: 'flex', alignItems: 'center', height: '10px', backgroundColor: '#D4A02B' }}>
                             <div style={{ height: '2px', width: '90%', backgroundColor: '#B39319' }}></div>
-                            <div style={{ height: '4px', width: '5%', backgroundColor: '#07224D' }}></div>
+                            <div style={{ height: '3px', width: '10%', backgroundColor: '#07224D' }}></div>
                         </div>
+                        <img src={Flower} alt='Flower' className={style.flower} />
                     </div>
                     <img src={VideoImg} alt='Kabsa' />
                 </div>

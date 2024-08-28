@@ -151,14 +151,15 @@
     display: flex;
     background-color: #CC9D2F;
     margin: 250px 5px 0 5px;
-    width: 1330.84px;
-    height: 555.97px;
+    max-width: 1330.84px;
+    max-height: 555.97px;
     justify-content: space-between;
+    position: relative;
 }
 
 .textDiv {
     padding: 60px;
-
+    position: relative;
 }
 
 .platText {
@@ -173,7 +174,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 5%;
+    margin-top: 80px;
+}
+
+.flower {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 /* Fourth Section */
