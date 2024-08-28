@@ -147,4 +147,33 @@
 }
 
 /* Third Section */
+.thirdSection {
+    display: flex;
+    background-color: #CC9D2F;
+    margin: 250px 5px 0 5px;
+    width: 1330.84px;
+    height: 555.97px;
+    justify-content: space-between;
+}
+
+.textDiv {
+    padding: 60px;
+
+}
+
+.platText {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 39.95px;
+    color: #243054;
+}
+
+.personDetail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
 /* Fourth Section */

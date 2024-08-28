@@ -9,6 +9,8 @@ import ImgThree from '../img/imageThree.png'
 import ImgFour from '../img/imageFour.png'
 import Diamond from '../img/DiamondShape.png'
 import Circles from '../img/Circles.png'
+import VideoImg from '../img/Video.png'
+import Person from '../img/PersonPhoto.png'
 
 export default function Home() {
     return (
@@ -48,7 +50,36 @@ export default function Home() {
                 </div>
             </div>
             {/* Third Section */}
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <div className={style.thirdSection}>
+                    <div className={style.textDiv}>
+                        <span className={style.platText}>
+                            <span style={{ fontSize: '59.93px', color: '#243054', position: 'absolute', fontFamily: 'Cotoris' }}>
+                                “
+                            </span>
+                            <br />
+                            You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would defiantly recommend it.
+                        </span>
+                        <div className={style.personDetail}>
+                            <p style={{ fontFamily: 'Poppins, sans-serif', fontSize: '13.32px', fontWeight: '500', lineHeight: '19.98px', color: 'rgba(36, 48, 84, 0.87)' }}>
+                                Khalid Al Dawsry
+                                <br />
+                                <span style={{ fontFamily: 'Poppins, sans-serif', fontSize: '9.99px', fontWeight: '500', lineHeight: '13.32px', color: 'rgba(36, 48, 84, 0.60)' }}>
+                                    Jeddah, Saudi
+                                </span>
+                            </p>
+                            <img src={Person} style={{ width: '39.95px', height: '39.95px' }} alt='person' />
+                        </div>
+                        {/* Line Under Person Details */}
+                        <div style={{ display: 'flex', alignItems: 'center', height: '10px', backgroundColor: '#D4A02B' }}>
+                            <div style={{ height: '2px', width: '90%', backgroundColor: '#B39319' }}></div>
+                            <div style={{ height: '4px', width: '5%', backgroundColor: '#07224D' }}></div>
+                        </div>
+                    </div>
+                    <img src={VideoImg} alt='Kabsa' />
+                </div>
+            </div>
             {/* Fourth Section */}
-        </Fragment>
+        </Fragment >
     )
 }
