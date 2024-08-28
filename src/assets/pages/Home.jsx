@@ -12,6 +12,7 @@ import Circles from '../img/Circles.png'
 import VideoImg from '../img/Video.png'
 import Person from '../img/PersonPhoto.png'
 import Flower from '../img/FlowerShape.svg'
+import BottomFlower from '../img/BottomFlower.png'
 
 export default function Home() {
     return (
@@ -85,6 +86,11 @@ export default function Home() {
             <div className={style.fourthSection}>
                 <div className={style.background_top}></div>
                 <div className={style.background_bottom}></div>
+                <div className={style.center}>
+                    <img src={BottomFlower} alt='Flower' />
+                    <div className={style.textBottom}>A unique menu that reflects the true essence of the Saudi cuisine</div>
+                    <button className={style.buttonMenue}>Our Menu</button>
+                </div>
             </div>
         </Fragment>
     )
