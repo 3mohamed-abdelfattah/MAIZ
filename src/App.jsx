@@ -1,12 +1,12 @@
 import './App.css'
-import Header from './components/Header'
-import Home from './assets/pages/Home';
-import About from './assets/pages/About';
-import Footer from './components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Menu from './assets/pages/Menu';
-import Venue from './assets/pages/Venue';
-import Events from './assets/pages/Events';
+import Header from './components/Header'
+import Home from './pages/Home';
+import About from './pages/About';
+import Menu from './pages/Menu';
+import Venue from './pages/Venue';
+import Events from './pages/Events';
+import Footer from './components/Footer';
 
 function App() {
 

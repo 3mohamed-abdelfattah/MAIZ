@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import styles from '../style/Events.module.css';
+import styles from '../assets/style/Events.module.css';
 
 const Events = () => {
 

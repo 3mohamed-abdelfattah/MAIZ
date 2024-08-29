@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import styles from '../style/Menu.module.css';
+import styles from '../assets/style/Menu.module.css';
 
 const Menu = () => {
 
@@ -74,7 +74,7 @@ const Menu = () => {
                         <div className={styles.dish}>
                             <img src="https://www.themediterraneandish.com/wp-content/uploads/2020/04/baklava-recipe-9.jpg" alt="Baklava" className={styles.dishImage} />
                             <div className={styles.dishDetails}>
-                                <h3 className={styles.dishName}>Baklava</h3>
+                                <h3 className={styles.dishName}>Baklawa</h3>
                                 <p className={styles.dishDescription}>Sweet pastry filled with nuts and honey.</p>
                                 <span className={styles.dishPrice}>$7.00</span>
                             </div>

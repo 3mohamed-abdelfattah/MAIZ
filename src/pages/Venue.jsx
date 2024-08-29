@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import styles from '../style/Venue.module.css';
+import styles from '../assets/style/Venue.module.css';
 
 const Venue = () => {
 

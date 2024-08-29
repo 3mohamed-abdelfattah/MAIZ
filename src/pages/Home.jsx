@@ -1,18 +1,18 @@
 import React, { Fragment, useEffect } from 'react'
-import style from '../style/Home.module.css'
-import MainDish from '../img/imageHead.png'
-import Circle from '../img/CircleIcon.png'
-import Star from '../img/ImgIcon.png'
-import ImgOne from '../img/imageOne.png'
-import ImgTwo from '../img/imageTwo.png'
-import ImgThree from '../img/imageThree.png'
-import ImgFour from '../img/imageFour.png'
-import Diamond from '../img/DiamondShape.png'
-import Circles from '../img/Circles.png'
-import VideoImg from '../img/Video.png'
-import Person from '../img/PersonPhoto.png'
-import Flower from '../img/FlowerShape.svg'
-import BottomFlower from '../img/BottomFlower.png'
+import style from '../assets/style/Home.module.css'
+import MainDish from '../assets/img/imageHead.png'
+import Circle from '../assets/img/CircleIcon.png'
+import Star from '../assets/img/ImgIcon.png'
+import ImgOne from '../assets/img/imageOne.png'
+import ImgTwo from '../assets/img/imageTwo.png'
+import ImgThree from '../assets/img/imageThree.png'
+import ImgFour from '../assets/img/imageFour.png'
+import Diamond from '../assets/img/DiamondShape.png'
+import Circles from '../assets/img/Circles.png'
+import VideoImg from '../assets/img/Video.png'
+import Person from '../assets/img/PersonPhoto.png'
+import Flower from '../assets/img/FlowerShape.svg'
+import BottomFlower from '../assets/img/BottomFlower.png'
 import { Link } from 'react-router-dom';
 
 export default function Home() {
@@ -33,7 +33,7 @@ export default function Home() {
                     </div>
                     <span>Among the best Saudi chefs in the world,<br /> serving you something beyond flavor.</span>
                     <Link to="/MAIZ/menu">
-                    <button className={style.headButton}>Our Menu</button>
+                        <button className={style.headButton}>Our Menu</button>
                     </Link>
                 </div>
             </div>
@@ -48,7 +48,7 @@ export default function Home() {
                     <span className={style.firstText} data-aos="fade-up">A distinctive dining destination<br /> inspired by the culture.</span>
                     <div className={style.secText} data-aos="fade-up">Experience Al Balad old town of Jeddah vibes. </div>
                     <Link to="/MAIZ/venue">
-                    <button className={style.buttonVenue} data-aos="zoom-in">Our Venue</button>
+                        <button className={style.buttonVenue} data-aos="zoom-in">Our Venue</button>
                     </Link>
                     <div className={style.imgesContainer}>
                         <img src={ImgTwo} alt='Main' data-aos="fade-left" className={style.ImgScreen} />
@@ -100,7 +100,7 @@ export default function Home() {
                     <img src={BottomFlower} alt='Flower' data-aos="zoom-in" />
                     <div className={style.textBottom} data-aos="zoom-in">A unique menu that reflects the true essence of the Saudi cuisine</div>
                     <Link to="/MAIZ/menu">
-                    <button className={style.buttonMenue} data-aos="zoom-in">Our Menu</button>
+                        <button className={style.buttonMenue} data-aos="zoom-in">Our Menu</button>
                     </Link>
                 </div>
             </div>
