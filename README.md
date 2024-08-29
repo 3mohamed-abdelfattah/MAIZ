@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/87cd9644-4fa5-4458-9b0d-fe88b0ef6a4e)# MAIZ
+# MAIZ
 
 ![Restaurant Preview](https://github.com/user-attachments/assets/a568f704-aaa9-455e-b922-c0fa586020ec)
 
