@@ -17,9 +17,9 @@ export default function Footer() {
                 <ul className={style.list}>
                     <li data-aos="fade-right"><Link to="/MAIZ/" className={style.navLink}>Home</Link></li>
                     <li data-aos="fade-right"><Link to="/MAIZ/about" className={style.navLink}>About</Link></li>
-                    <li data-aos="fade-right" className={style.navLink}>Menu</li>
-                    <li data-aos="fade-right" className={style.navLink}>Venue</li>
-                    <li data-aos="fade-right" className={style.navLink}>Events</li>
+                    <li data-aos="fade-right"><Link to="/MAIZ/menu" className={style.navLink}>Menu</Link></li>
+                    <li data-aos="fade-right"><Link to="/MAIZ/venue" className={style.navLink}>Venue</Link></li>
+                    <li data-aos="fade-right"><Link to="/MAIZ/events" className={style.navLink}>Events</Link></li>
                     <li data-aos="fade-right" className={style.navLink}>Contact us</li>
                 </ul>
             </div>

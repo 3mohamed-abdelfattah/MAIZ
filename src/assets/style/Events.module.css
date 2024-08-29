@@ -1,0 +1,111 @@
+.eventsSection {
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.featuredEvents,
+.pastEvents,
+.calendar,
+.testimonials {
+    margin-bottom: 3rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #5B0017;
+}
+
+.subtitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #5B0017;
+
+}
+
+.eventsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.event {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.eventImage {
+    width: 100%;
+    height: 450px;
+}
+
+.eventDetails {
+    padding: 1rem;
+}
+
+.eventName {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.eventDate {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 0.5rem;
+}
+
+.eventDescription {
+    font-size: 1rem;
+    color: #333;
+}
+
+.eventButton {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #5B0017;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.eventButton:hover {
+    background-color: #4a0014;
+}
+
+.calendar {
+    text-align: center;
+}
+
+.testimonials {
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 1.5rem;
+}
+
+.testimonialText {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.testimonialAuthor {
+    display: block;
+    font-size: 1rem;
+    color: #888;
+    margin-top: 0.5rem;
+}

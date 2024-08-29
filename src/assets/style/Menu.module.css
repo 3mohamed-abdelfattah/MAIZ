@@ -1,0 +1,118 @@
+.menuPage {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.menuHeader {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.menuTitle {
+    font-size: 3em;
+    font-weight: bold;
+    color: #5B0017;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.menuTitle::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: #5B0017;
+}
+
+.menuSubtitle {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.menuCategories {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.category {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.category::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: #5B0017;
+    border-radius: 15px 15px 0 0;
+}
+
+.categoryTitle {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #5B0017;
+    margin-bottom: 20px;
+}
+
+.dishesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.dish {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.dish:hover {
+    transform: scale(1.05);
+}
+
+.dishImage {
+    width: 120px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.dishDetails {
+    padding: 10px;
+    flex: 1;
+}
+
+.dishName {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #5B0017;
+    margin: 0;
+}
+
+.dishDescription {
+    font-size: 1em;
+    color: #666;
+}
+
+.dishPrice {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #5B0017;
+    margin-top: 10px;
+}
