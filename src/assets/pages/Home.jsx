@@ -46,9 +46,9 @@ export default function Home() {
                     <div className={style.secText} data-aos="fade-up">Experience Al Balad old town of Jeddah vibes. </div>
                     <button className={style.buttonVenue} data-aos="zoom-in">Our Venue</button>
                     <div className={style.imgesContainer}>
-                        <img src={ImgTwo} alt='Main' data-aos="fade-left" />
-                        <img src={ImgThree} alt='Main' data-aos="fade-left" />
-                        <img src={ImgFour} alt='Main' data-aos="fade-left" />
+                        <img src={ImgTwo} alt='Main' data-aos="fade-left" className={style.ImgScreen} />
+                        <img src={ImgThree} alt='Main' data-aos="fade-left" className={style.ImgScreen} />
+                        <img src={ImgFour} alt='Main' data-aos="fade-left" className={style.ImgScreen} />
                     </div>
                     <hr className={style.breakLine} data-aos="fade-left" />
                 </div>

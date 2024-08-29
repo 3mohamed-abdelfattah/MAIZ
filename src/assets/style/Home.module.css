@@ -304,8 +304,7 @@
     }
 
     .floweIcon {
-        position: static;
-        margin-top: 20px;
+        display: none;
     }
 
     /* Second Section */
@@ -334,6 +333,10 @@
         max-width: 250px;
     }
 
+    .ImgScreen {
+        display: none;
+    }
+
     .imgesContainer {
         flex-direction: column;
         align-items: center;
@@ -345,7 +348,7 @@
     }
 
     .diamondShape {
-        justify-content: center;
+        justify-content: right;
     }
 
     .circlesShape {
