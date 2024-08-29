@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/224e8ebb-db2a-4733-b3e9-1f72066f764b)
-
 # MAIZ
 
 ![Restaurant Preview](https://github.com/user-attachments/assets/a568f704-aaa9-455e-b922-c0fa586020ec)
