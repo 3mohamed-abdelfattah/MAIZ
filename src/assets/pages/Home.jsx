@@ -84,7 +84,7 @@ export default function Home() {
                         </div>
                         <img src={Flower} alt='Flower' className={style.flower} />
                     </div>
-                    <img src={VideoImg} alt='Kabsa' />
+                    <img src={VideoImg} alt='Kabsa' className={style.thirdSectionImage} />
                 </div>
             </div>
             {/* Fourth Section */}

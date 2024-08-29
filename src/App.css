@@ -13,10 +13,6 @@
   src: url(./assets//fonts/cotorisbold.ttf);
 }
 
-* {
-  border: 1px solid rgba(255, 0, 255, 0.514);
-}
-
 body {
   margin: 0;
   padding: 0;
