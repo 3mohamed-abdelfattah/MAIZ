@@ -2,7 +2,10 @@
 
 
 **MAIZ** is a modern, fully responsive website designed for a Saudi cuisine restaurant. The site offers users an immersive experience into the authentic flavors and cultural richness of Saudi Arabia, using a sleek and luxurious design.
+
+
 ![Restaurant Preview](https://github.com/user-attachments/assets/a568f704-aaa9-455e-b922-c0fa586020ec)
+
 
 ## Technologies Used
 
