@@ -4,6 +4,41 @@
     align-items: flex-start;
     padding: 40px 40px 0 60px;
     z-index: 999;
+    position: relative;
+}
+
+.burgerMenu {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    z-index: 10000;
+    position: absolute;
+    left: 10px;
+    /* نقله إلى أقصى اليسار */
+    top: 50%;
+    /* لضبطه في منتصف الهيدر عمودياً */
+    transform: translateY(-50%);
+    /* لتوسيطه عمودياً بشكل صحيح */
+}
+
+
+.burgerBar {
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.showMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    background-color: #ffffffda;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .list {
@@ -25,7 +60,6 @@
     color: #CC9D2F;
     transition: color 0.4s ease-out;
 }
-
 
 .navButton {
     display: flex;
@@ -52,4 +86,39 @@
     background-color: #5b0017;
     border-color: #CC9D2F;
     transition: background-color 0.4s ease-out, border-color 0.4s ease-out;
+}
+
+@media (max-width: 900px) {
+    .burgerMenu {
+        display: flex;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .showMenu {
+        display: flex;
+        gap: 20px;
+    }
+
+    .navButton {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .buttonText {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .logoImg {
+        width: 80%;
+        margin-right: 60px;
+    }
+
+    .navLink {
+        color: #000000;
+    }
 }

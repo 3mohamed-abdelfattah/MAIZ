@@ -264,3 +264,158 @@
     border: 2px solid #CC9D2F;
     z-index: 999;
 }
+
+/* تصميم متجاوب للشاشات تحت 900 بكسل */
+@media (max-width: 900px) {
+
+    /* First Section */
+    .imageContainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Image {
+        max-width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .headText {
+        position: static;
+        text-align: center;
+        padding: 20px;
+        transform: none;
+    }
+
+    .headBackground {
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+    .headText span {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .headButton {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .floweIcon {
+        position: static;
+        margin-top: 20px;
+    }
+
+    /* Second Section */
+    .secSection {
+        flex-direction: column;
+        margin: 40px 20px;
+    }
+
+    .subContainer {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .firstText {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .secText {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .buttonVenue {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .imgesContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .breakLine {
+        width: 80%;
+    }
+
+    .diamondShape {
+        justify-content: center;
+    }
+
+    .circlesShape {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .imgOne {
+        width: 100%;
+    }
+
+    /* Third Section */
+    .thirdSection {
+        flex-direction: column;
+        margin: 150px 20px 0 20px;
+        padding: 20px;
+    }
+
+    .textDiv {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .platText {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .personDetail {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    .flower {
+        position: static;
+        margin-top: 20px;
+    }
+
+    /* Fourth Section */
+    .fourthSection {
+        flex-direction: column;
+        min-height: auto;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    .background_top,
+    .background_bottom {
+        display: none;
+    }
+
+    .center {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .textBottom {
+        font-size: 50px;
+        line-height: 65px;
+        width: 100%;
+    }
+
+    .buttonMenue {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .third {
+        width: 10%;
+        margin-bottom: 150px;
+    }
+}
