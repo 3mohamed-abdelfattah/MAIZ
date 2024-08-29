@@ -10,6 +10,8 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
+      <div className="background-left"></div>
+      <div className="background-right"></div>
       <Routes>
         <Route path="/MAIZ/" element={<Home />} />
         <Route path="/MAIZ/about" element={<About />} />

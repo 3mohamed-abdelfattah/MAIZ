@@ -3,6 +3,7 @@ import style from '../style/About.module.css'
 import AboutImg from '../img/about.jpg'
 import Chef from '../img/chef_4638190.png'
 import Manger from '../img/groom_5284223.png'
+import Flower from '../img/FlowerShape.svg'
 
 export default function About() {
 
@@ -20,12 +21,7 @@ export default function About() {
                 <h2 className={style.teamTitle} data-aos="zoom-in">Meet Our Team</h2>
                 <div className={style.teamGrid}>
                     <div className={style.teamMember} data-aos="zoom-in">
-                        <img src={Chef} alt="Team Member 1" className={style.teamImage} />
-                        <h3 className={style.teamName}>Nasser Ahmed</h3>
-                        <p className={style.teamRole}>Chef</p>
-                        <p className={style.teamBio}>Nasser has over 10 years of experience in the culinary arts, bringing a unique blend of flavors to our dishes.</p>
-                    </div>
-                    <div className={style.teamMember} data-aos="zoom-in">
+                        <img src={Flower} alt="Team Member 1" className={style.teamIcon} />
                         <img src={Manger} alt="Team Member 2" className={style.teamImage} />
                         <h3 className={style.teamName}>Mohamed Mohamed</h3>
                         <p className={style.teamRole}>Manager</p>
@@ -36,6 +32,12 @@ export default function About() {
                         <h3 className={style.teamName}>Nour Ali</h3>
                         <p className={style.teamRole}>Head Chef</p>
                         <p className={style.teamBio}>Nour has over 20 years of experience in the culinary arts, bringing a unique blend of flavors to our dishes.</p>
+                    </div>
+                    <div className={style.teamMember} data-aos="zoom-in">
+                        <img src={Chef} alt="Team Member 1" className={style.teamImage} />
+                        <h3 className={style.teamName}>Nasser Ahmed</h3>
+                        <p className={style.teamRole}>Chef</p>
+                        <p className={style.teamBio}>Nasser has over 10 years of experience in the culinary arts, bringing a unique blend of flavors to our dishes.</p>
                     </div>
                 </div>
             </div>
