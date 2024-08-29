@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
 import style from '../style/Home.module.css'
 import MainDish from '../img/imageHead.png'
 import Circle from '../img/CircleIcon.png'
@@ -15,6 +15,11 @@ import Flower from '../img/FlowerShape.svg'
 import BottomFlower from '../img/BottomFlower.png'
 
 export default function Home() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <Fragment>
             {/* First Section */}

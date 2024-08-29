@@ -16,11 +16,11 @@ export default function Footer() {
             <div className={style.subContainer}>
                 <ul className={style.list}>
                     <li data-aos="fade-right"><Link to="/MAIZ/" className={style.navLink}>Home</Link></li>
-                    <li data-aos="fade-right"><Link to="/about" className={style.navLink}>About</Link></li>
-                    <li data-aos="fade-right"><Link to="/menu" className={style.navLink}>Menu</Link></li>
-                    <li data-aos="fade-right"><Link to="/venue" className={style.navLink}>Venue</Link></li>
-                    <li data-aos="fade-right"><Link to="/events" className={style.navLink}>Events</Link></li>
-                    <li data-aos="fade-right"><Link to="/contact" className={style.navLink}>Contact us</Link></li>
+                    <li data-aos="fade-right"><Link to="/MAIZ/about" className={style.navLink}>About</Link></li>
+                    <li data-aos="fade-right"><Link to="/MAIZ/menu" className={style.navLink}>Menu</Link></li>
+                    <li data-aos="fade-right"><Link to="/MAIZ/venue" className={style.navLink}>Venue</Link></li>
+                    <li data-aos="fade-right"><Link to="/MAIZ/events" className={style.navLink}>Events</Link></li>
+                    <li data-aos="fade-right"><Link to="/MAIZ/contact" className={style.navLink}>Contact us</Link></li>
                 </ul>
             </div>
             <hr className={style.breakLine} />

@@ -7,14 +7,14 @@ import { Link } from 'react-router-dom'
 export default function Header() {
     return (
         <nav className={style.container}>
-            <Link to="/MAIZ" data-aos="zoom-in">
+            <Link to="/MAIZ/" data-aos="zoom-in">
                 <img className={style.logoImg} src={Logo} alt='Logo' />
             </Link>
             <ul className={style.list}>
-                <li data-aos="fade-right"><Link to="/about" className={style.navLink}>About</Link></li>
-                <li data-aos="fade-right"><Link to="/menu" className={style.navLink}>Menu</Link></li>
-                <li data-aos="fade-right"><Link to="/venue" className={style.navLink}>Venue</Link></li>
-                <li data-aos="fade-right"><Link to="/events" className={style.navLink}>Events</Link></li>
+                <li data-aos="fade-right"><Link to="/MAIZ/about" className={style.navLink}>About</Link></li>
+                <li data-aos="fade-right"><Link to="/MAIZ/menu" className={style.navLink}>Menu</Link></li>
+                <li data-aos="fade-right"><Link to="/MAIZ/venue" className={style.navLink}>Venue</Link></li>
+                <li data-aos="fade-right"><Link to="/MAIZ/events" className={style.navLink}>Events</Link></li>
             </ul>
             <span className={style.navButton} data-aos="zoom-in">
                 <button className={style.buttonText}>Book Now</button>

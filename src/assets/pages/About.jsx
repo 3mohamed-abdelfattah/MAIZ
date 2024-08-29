@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import style from '../style/About.module.css'
 import AboutImg from '../img/about.jpg'
 import Chef from '../img/chef_4638190.png'
 import Manger from '../img/groom_5284223.png'
 
 export default function About() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className={style.aboutPage}>
             <p className={style.aboutDescription} data-aos="zoom-in">
