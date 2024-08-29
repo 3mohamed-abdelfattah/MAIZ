@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from '../style/Venue.module.css';
 
 const Venue = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <section className={styles.venueSection}>
             <div className={styles.container}>

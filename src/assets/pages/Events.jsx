@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from '../style/Events.module.css';
 
 const Events = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <section className={styles.eventsSection}>
             <div className={styles.container}>
