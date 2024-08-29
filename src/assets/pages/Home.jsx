@@ -13,6 +13,7 @@ import VideoImg from '../img/Video.png'
 import Person from '../img/PersonPhoto.png'
 import Flower from '../img/FlowerShape.svg'
 import BottomFlower from '../img/BottomFlower.png'
+import { Link } from 'react-router-dom';
 
 export default function Home() {
 
@@ -31,7 +32,9 @@ export default function Home() {
                         Taste the authentic <br /> Saudi cuisine
                     </div>
                     <span>Among the best Saudi chefs in the world,<br /> serving you something beyond flavor.</span>
+                    <Link to="/MAIZ/menu">
                     <button className={style.headButton}>Our Menu</button>
+                    </Link>
                 </div>
             </div>
             <img src={Circle} alt='Main' className={style.circleIcon} data-aos="zoom-in" />
@@ -44,7 +47,9 @@ export default function Home() {
                 <div className={style.subContainer}>
                     <span className={style.firstText} data-aos="fade-up">A distinctive dining destination<br /> inspired by the culture.</span>
                     <div className={style.secText} data-aos="fade-up">Experience Al Balad old town of Jeddah vibes. </div>
+                    <Link to="/MAIZ/venue">
                     <button className={style.buttonVenue} data-aos="zoom-in">Our Venue</button>
+                    </Link>
                     <div className={style.imgesContainer}>
                         <img src={ImgTwo} alt='Main' data-aos="fade-left" className={style.ImgScreen} />
                         <img src={ImgThree} alt='Main' data-aos="fade-left" className={style.ImgScreen} />
@@ -94,7 +99,9 @@ export default function Home() {
                 <div className={style.center}>
                     <img src={BottomFlower} alt='Flower' data-aos="zoom-in" />
                     <div className={style.textBottom} data-aos="zoom-in">A unique menu that reflects the true essence of the Saudi cuisine</div>
+                    <Link to="/MAIZ/menu">
                     <button className={style.buttonMenue} data-aos="zoom-in">Our Menu</button>
+                    </Link>
                 </div>
             </div>
         </Fragment>
